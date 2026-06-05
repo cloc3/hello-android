@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:3:1-10:15
+INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:3:1-10:15
+	android:extractNativeLibs
+		INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:3:14-39
+activity#net.cloc3.helloworld.MainActivity
+ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:4:1-9:12
+	android:exported
+		ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:4:60-83
+	android:name
+		ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:4:11-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:5:1-8:17
+action#android.intent.action.MAIN
+ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:6:1-53
+	android:name
+		ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:6:9-50
+category#android.intent.category.LAUNCHER
+ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:7:1-61
+	android:name
+		ADDED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:7:11-58
+uses-sdk
+INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml
+INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml

@@ -1,0 +1,27 @@
+plugins {
+	id 'com.android.application'
+}
+
+//net.cloc3 is a free target. you may use com.example
+android {
+	namespace 'net.cloc3.helloworld'
+	compileSdk 34
+
+	defaultConfig {
+		applicationId "net.cloc3.helloworld"
+		minSdk 24
+		targetSdk 34
+		versionCode 1
+		versionName "1.0"
+	}
+
+	applicationVariants.all { variant ->
+		variant.outputs.all { output ->
+			if (variant.buildType.name == "release") {
+				outputFileName = "helloworld.apk"
+			} else {
+				outputFileName = "helloworld-debug.apk"
+			}
+		}
+	}
+}

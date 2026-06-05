@@ -1,0 +1,7 @@
+net.cloc3.helloworld.app-pngs-0 /home/cloc3/github/hello-android/app/build/generated/res/pngs/release
+net.cloc3.helloworld.app-resValues-1 /home/cloc3/github/hello-android/app/build/generated/res/resValues/release
+net.cloc3.helloworld.app-packageReleaseResources-2 /home/cloc3/github/hello-android/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+net.cloc3.helloworld.app-packageReleaseResources-3 /home/cloc3/github/hello-android/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+net.cloc3.helloworld.app-release-4 /home/cloc3/github/hello-android/app/build/intermediates/merged_res/release/mergeReleaseResources
+net.cloc3.helloworld.app-main-5 /home/cloc3/github/hello-android/app/src/main/res
+net.cloc3.helloworld.app-release-6 /home/cloc3/github/hello-android/app/src/release/res

@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.cloc3.helloworld"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <application
+11-->/home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:3:1-10:15
+12        android:debuggable="true"
+13        android:extractNativeLibs="false"
+14        android:label="Hello CLI" >
+14-->/home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:3:14-39
+15        <activity
+15-->/home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:4:1-9:12
+16            android:name="net.cloc3.helloworld.MainActivity"
+16-->/home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:4:11-59
+17            android:exported="true" >
+17-->/home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:4:60-83
+18            <intent-filter>
+18-->/home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:5:1-8:17
+19                <action android:name="android.intent.action.MAIN" />
+19-->/home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:6:1-53
+19-->/home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:6:9-50
+20
+21                <category android:name="android.intent.category.LAUNCHER" />
+21-->/home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:7:1-61
+21-->/home/cloc3/github/hello-android/app/src/main/AndroidManifest.xml:7:11-58
+22            </intent-filter>
+23        </activity>
+24    </application>
+25
+26</manifest>

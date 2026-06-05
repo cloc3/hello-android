@@ -1,0 +1,7 @@
+net.cloc3.helloworld.app-pngs-0 /home/cloc3/github/hello-android/app/build/generated/res/pngs/debug
+net.cloc3.helloworld.app-resValues-1 /home/cloc3/github/hello-android/app/build/generated/res/resValues/debug
+net.cloc3.helloworld.app-packageDebugResources-2 /home/cloc3/github/hello-android/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+net.cloc3.helloworld.app-packageDebugResources-3 /home/cloc3/github/hello-android/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+net.cloc3.helloworld.app-debug-4 /home/cloc3/github/hello-android/app/build/intermediates/merged_res/debug/mergeDebugResources
+net.cloc3.helloworld.app-debug-5 /home/cloc3/github/hello-android/app/src/debug/res
+net.cloc3.helloworld.app-main-6 /home/cloc3/github/hello-android/app/src/main/res
