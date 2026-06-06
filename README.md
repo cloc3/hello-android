@@ -32,7 +32,7 @@ howto build an android helloworld app for your phone using the cmdline in a gent
     -Pandroid.injected.signing.store.password=$(<~/androidKeys/${USER}) \
     -Pandroid.injected.signing.key.alias=helloKey \
     -Pandroid.injected.signing.key.password=$(<~/androidKeys/${USER})
-``
+
 20. cd app/build/outputs/apk/release; python3 -m http.server 8080
 ```
 
