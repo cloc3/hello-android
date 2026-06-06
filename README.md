@@ -26,7 +26,6 @@ howto build an android helloworld app for your phone using the cmdline in a gent
 16. mkdir ~/androidKeys; chmod 700 ~/androidKeys;
 17. keytool -genkey -v -keystore ~/androidKeys/helloworld.jks -keyalg RSA -keysize 2048 -validity 10000 -alias helloKey
 18. echo "yourPassword" > ~/androidKeys/${USER}; chmod 600 ~/androidKeys/${USER}
-```
     assemble the final relaease:
 19. cd ~/github/hello-android; gradle clean assembleRelease \
     -Pandroid.injected.signing.store.file=${HOME}/androidKeys/helloworld.jks \
