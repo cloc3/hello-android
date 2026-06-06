@@ -16,7 +16,7 @@ howto build an android helloworld app for your phone using the cmdline in a gent
     assemble the debug version of the app, for testing purposes:
 9.  gradle clean assembleDebug
 
-    make the executable avilable on local web, for your phone:
+    make the executable avilable on local web for your phone:
 10. cd ${MY_ANDROID}/app/build/outputs/apk/debug
 11. python3 -m http.server 8080 # opens an http server on your pc
 12. open the brower on your phone at the address: http://<yourPcLocalAddress>:8080
@@ -24,7 +24,7 @@ howto build an android helloworld app for your phone using the cmdline in a gent
 14. double clic over helloworld-debug.apk and follow installing instructions of your device.
 15. test the debug version of your app. if it runs, go away to build the release version.
 
-    prepare the digital signature for the final relase:
+    prepare the digital signature of the final relase:
 16. mkdir ~/androidKeys; chmod 700 ~/androidKeys;
 17. keytool -genkey -v -keystore ~/androidKeys/helloworld.jks -keyalg RSA -keysize 2048 -validity 10000 -alias helloKey
 18. echo "yourPassword" > ~/androidKeys/${USER}; chmod 600 ~/androidKeys/${USER}
