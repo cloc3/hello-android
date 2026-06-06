@@ -12,8 +12,10 @@ howto build an android helloworld app for your phone using the cmdline in a gent
 6.  add settings.gradle, build.gradle and app/build.gradle files
 7.  put source code in ${MY_ANDROID}/app/src/main/java/net.cloc3/helloworld/MainActivity.java
 8.  make the manifest in ${MY_ANDROID}/app/src/main/java/net/cloc3/helloworld/AndroidManifest.xml
+
     assemble the debug version of the app, for testing purposes:
 9.  gradle clean assembleDebug
+
     make the executable avilable on local web, for your phone:
 10. cd ${MY_ANDROID}/app/build/outputs/apk/debug
 11. python3 -m http.server 8080 # opens an http server on your pc
